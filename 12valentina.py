@@ -4,7 +4,7 @@ from tkinter import messagebox, ttk
 class Usuario:
     def __init__(self):
         self._usuario = "programacion"
-        self._password = "programacion"
+        self._password = "programacion"m
 
     def validar(self, usuario_ingresado, password_ingresada):
         return (usuario_ingresado == self._usuario and 
